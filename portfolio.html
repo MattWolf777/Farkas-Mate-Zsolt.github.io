@@ -1,0 +1,221 @@
+<!DOCTYPE html></DOCTYPE>
+
+<html lang="en">
+
+<!---------------------------------------------------------------------------HEAD---------------------------------------------------------------------------------------->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Stylesheet.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+    <title>Farkas Máté</title>
+     <!----jquerry------>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"></script>
+  </head>
+   
+
+  <!-------------------------------------------------------------------------BODY--------------------------------------------------------------------------------------->
+  
+  <!------------HEADER-SECTION--------------->
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <button class="icon" id="menu-close"><img src="./images/close.icon.png" width="40" height="40"></i></button>
+          <ul class="neonText">
+            <li><a href="#services">SZOLGÁLTATÁSAIM</a></li>
+            <li><a href="#about">RÓLAM</a></li>
+            <li><a href="#projects">PROJEKTJEIM</a></li>
+            <li><a href="#contact">ELÉRHETŐSÉG</a></li>
+          </ul> 
+        </div>
+      </nav>
+      <button class="icon" id="menu-open"><img src="./images/menu_icon.png" width="60" height="40"></i></button>
+      <div class="home">
+        <h2 class="neonText">ÜDVÖZLÖM!</h2>
+        <h1 class="neonText">Farkas Máté Zsolt Vagyok!</h1>
+        <p>Másfél éve tanulok aktívan programozni, és úgy érzem, hogy készen állok a következő lépésre! Magabiztosan állítom, hogy egy olyan tudást és elszántságot képviselek, amellyel mindenképpen a hasznukra válhatok!</p>
+      </div>
+    </header>
+
+
+<!------------SERVICES-SECTION--------------->
+    <section class="services" id="services">
+      <h1>Mit Tudok <span class="neonText">Szolgáltatni</span>?</h1>
+      <div class="row">
+        <div class="service">
+          <img src="./images/HTML-logo.png" alt="Egy kép" style="width:220px;height:220px;">
+        </div>
+        <div class="service">
+  
+          <img src="./images/CSS-logo.png" alt="Egy kép" style="width:220px;height:220px;">
+          <div class="line"></div>
+        </div>
+        <div class="service">
+          <img src="./images/jS-logo.png" alt="Egy kép" style="width:220px;height:220px;">
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="row">
+        
+        <div class="service" style="flex-basis: 100%;">
+          <img src="./images/Python-logo.png" alt="Egy kép" style="width:320px;height:220px;">
+        </div>
+        <div class="service" style="display: none;">
+          <img src="./images/grey-background.jpg" alt="Egy kép" width="360px" height="200px">
+        </div>
+      </section>
+      
+  
+      <!------------ABOUT-SECTION--------------->   
+      <div class="neonBorder">
+        <section class="about" id="about">
+          <div class="about-pic"><img src="./images/about_image.jpg"></div>
+          <div class="about-text">
+            <h1><span class="neonText">Junior Fejlesztő</span> Vagyok!</h1>
+            <p>Majdnem két éve kezdtem el programozni Pythonban. Azóta rengeteget fejlődtem, és tudásomat szeretném egy szakmai helyen hasznosítani, és tovább fejleszteni. Webfejlesztéssel több mint fél éve intenzíven foglalkozom. Ez az oldal jól mutatja tudásszintemet Frontend fejlesztés terén. Tisztában vagyok az alapokkal, és több tudásra éhezem. A cégnél ahol jelenleg dolgozom belefolytam automatizálási folyamatokba, és python scripteket írtam alapvető folyamatok hatékonyabbá tételére.</p>
+            <div class="about-table">
+              <ul class="about-label">
+                <li>Teljes név</li>
+                <li>Lakhely</li>
+                <li>Telefonszám</li>
+                <li>E-mail cím</li>
+              </ul>
+              <ul class="about-data">
+                <li>Farkas Máté Zsolt</li>
+                <li>Tárnok 2461.</li>
+                <li>+36-20-226-1244</li>
+                <li>farkas.mate.zsolt777@gmail.com</li>
+              </ul>
+            </div>
+            <a href="./CV - Farkas Máté Zsolt (1).pdf" class="button" id="cv-btn">ÖNÉLETRAJZ</a>
+          </div>
+        </section>
+    
+  
+      <!------------PROJECT-SECTION---------------->
+  
+        <section class="projects", id="projects">
+          <h1>Vessen egy Pillantást <span class="neonText">Projektjeimre</span>!</h1>
+  
+          <div class="row">
+            <div class="project" id="project-2">
+              <div class="project-img" id="project-pic">
+                <div class="pic">
+                  <img class="open-icon" id="project-magnify-icon" src="./images/open-icon.png" alt="" style="width:30px; height:30px">
+                  <img class="image" id="project-img1"  src="./images/ezgif.com-crop.gif" alt="Egy kép">
+                </div>
+                <div class="magnify" id="magnify" >
+                  <a href="https://github.com/MattWolf777/Super_Pyrio">
+                    <img class="github-icon" src="./images/Github_logo.png" style="width:50px; height:50px; alt: 'github-logo'">
+                  </a>
+                  <img class="magnify_img" src="./images/ezgif.com-video-to-gif.gif">
+                  <img class="close-icon" src="./images/close.icon.png" style="width:30px; height:30px">
+                </div>
+                <p id="helper" style="font-size: 30px; color: wheat; display: none; position: fixed; top: 50px; left: 100px; z-index: 10;">asd</p>
+              </div>
+              <div class="project-desc"><p>Super-Pyrio: Az eddigi legnagyobb kivitelű projektem. Mindenképpen szerettem volna valahogy bemutatni a tudásomat az objektum orientáltság terén, és úgy gondoltam, hogy egy játék készítése erre a legjobb mód. A játék mondhatni egy egyszerűsített mario utánzat, néhány extrával kiegészítve.<a href="https://github.com/MattWolf777/Super_Pyrio"> A projektem itt érhető el.</a> Kérem kövesse a README file utasításait!</p></div>
+            </div>
+  
+            <div class="project" id="project-1">
+              <div class="project-img" id="project-pic">
+                <div class="pic">
+                  <img class="open-icon" id="project-magnify-icon" src="./images/open-icon.png" alt="" style="width:30px; height:30px">
+                  <img class="image" id="project-img1" src="./images/ezgif.com-optimize (2).gif" alt="Egy kép">
+                </div>
+                <div class="magnify" id="magnify">
+                  <a href="">
+                    <img class="github-icon" src="./images/Github_logo.png" style="width:50px; height:50px; alt: 'github-logo'">
+                  </a>
+                  <img class="magnify_img" src="./images/Ukiyo-e.jpeg">
+                  <img class="close-icon" src="./images/close.icon.png" style="width:30px; height:30px">
+                </div>
+                <p id="helper" style="font-size: 30px; color: wheat; display: none; position: fixed; top: 50px; left: 100px; z-index: 10;">asd</p>
+              </div>
+              <div class="project-desc"><p>Ez az egyszerű reszponzív weboldal, ami átfogóan bemutat egy Japán festésművészetet, az Ukiyo-e-t. (A megnyíló ablak csak egy illusztráció. A valódi html file a Github fiókomban érhető el!)</p></div>
+            </div>
+  
+          </div>
+        </section>
+  
+  
+      <!------------CONTACT-SECTION---------------->
+  
+      <section class="contact" id="contact">
+        <h2>Amennyiben felkeltettem érdeklődését</h2>
+        <h1 class="neonText">Keressen Bátran!</h1>
+        <div class="contact-body">
+          <div class="contact-pic"><img src="./images/contact_image.png"></div>
+          <div class="icons">
+            <a href="https://github.com/MattWolf777"><img src="./images/github_logo_neon.png" style="width: 80px" alt="" ></a>
+            <a href="https://www.linkedin.com/in/farkas-m%C3%A1t%C3%A9-147151245"><img src="./images/linkedin_logo_neon.png" style="width: 80px" alt="" ></a>
+            <a href="https://www.facebook.com/farkas.mate.792"><img src="./images/facebook_logo_neon.png" style="width: 80px" alt="" ></a>
+            <a href="https://t.me/Matt_Wolf777"><img src="./images/telegram_logo.png" style="width: 80px" alt="" ></a>
+          </div>
+          
+          
+        </div>
+      </section>
+    </div>
+    
+ 
+
+<!--------JavaScript for Toggle Menu---------->
+
+    <script>
+
+
+      /* OPENING/CLOSING OF mAGNIFIED PROJECT ILLUSTRATION*/
+
+      $(document).ready(function() {
+        $(".pic").click(function() {
+          $(this).next().css({"display": "inline-block", "opacity": "1"})
+        })  
+
+        $(".close-icon").click(function() {
+          $(this).parent().css({"display": "none", "opacity": "0"})
+        })
+
+        $(".magnify").dblclick(function() {
+          $(this).css({"display": "none", "opacity": "0"})
+        })
+      });
+
+
+      /* OPENING/CLOSING OF NAVBAR*/
+
+      $(document).ready(function() {
+         /* Corrects navbar when window's size is changed*/
+        $(window).resize(function() {
+          if($(window).width() > 700) {
+            $("#navLinks").css("right", "2%");
+          };
+
+          if($(window).width() < 700) {
+            $("#navLinks").css("right", "0%");
+          };
+        })
+        
+       /* Opens/closes navbar when corresppnding icons are clicked upon*/
+        $("#menu-open").click(function() {
+          $("#navLinks").css("right", "0%");
+        })
+
+        $("#menu-close").click(function() {
+          $("#navLinks").css("right", "-60%");
+        })
+
+      })
+
+    </script>
+  </body>
+</html>
+
